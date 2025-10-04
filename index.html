@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="player-container">
+        <h1>Meu Player de Música</h1>
+        <div class="cover-art"></div>
+        <h2 id="song-title"></h2>
+        <h3 id="artist-name"></h3>
+        <audio id="audio-player" controls></audio>
+        <div class="controls">
+            <button id="prev-btn">Anterior</button>
+            <button id="play-pause-btn">Play</button>
+            <button id="next-btn">Próxima</button>
+        </div>
+        <div class="ad-container" style="display: none;">
+            <h2>Assista a propaganda para ganhar créditos!</h2>
+            <video id="ad-video" controls src="" style="width: 100%;"></video>
+            <button id="watch-ad-btn">Assistir Propaganda</button>
+            <p id="ad-message"></p>
+        </div>
+        <p>Créditos: <span id="credits">0</span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+</html>
